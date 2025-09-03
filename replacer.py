@@ -17,7 +17,7 @@ I will give you an English word, and you will return its Slovenian translations.
 Please try to return at least 4 different translations. max better, but not more then 7
 Return ONLY Slovenian translations, separated by commas. No extras.
 """
-# (38000 - 22000) / 93000 = 17.2%
+# (35000 - 22000) / 93000 = 17.2%
 #  dispatching - indigence
 
 client = OpenAI(
