@@ -17,8 +17,8 @@ I will give you an English word, and you will return its Slovenian translations.
 Please try to return at least 4 different translations. max better, but not more then 7
 Return ONLY Slovenian translations, separated by commas. No extras.
 """
-# (45000 - 22000) / 93000 = 24.7%
-#  dispatching - meekness
+# (38000 - 22000) / 93000 = 17.2%
+#  dispatching - indigence
 
 client = OpenAI(
     api_key=""
@@ -132,11 +132,10 @@ I will give you words in json format with empty values.
 write in values slovenian translations for keys. 
 Try to find at least 5 translations for slovenian words and store them in value as one string, words are seperated by comma. 
 More translations, better
-Provide multiple valid Slovenian translations or synonyms, like in a bilingual dictionary. when writing json. also put comma after last value in a row like this:
-{
-"test": "trans1, trans2, trans3",
-"test2": "trans1, trans2, trans3",
-}
+Provide multiple valid Slovenian translations or synonyms, like in a bilingual dictionary. when writing imagine like it is part of json structure. also put comma after last value in a row without {} brackets like this:
+    "test": "trans1, trans2, trans3",
+    "test2": "trans1, trans2, trans3",
+
 
 sounds ok?
 """
