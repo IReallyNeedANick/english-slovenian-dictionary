@@ -1,14 +1,24 @@
-This is incomplete english - slovenian dictionary in json
+# English → Slovenian Dictionary
 
-I am in process of creating one so this is still in TODO (missing all words from dispatching - firing pin)
+This project provides an **English–Slovenian dictionary** in both **JSON** and **StarDict** formats.
 
-I started with all the words for english-german as it seemed the biggest from this webpage https://blog.jirivanek.eu/en/2023/11/24/dictionaries-for-the-onyx-boox-e-reader/
+---
 
-all_words is ideal scenario where all the words will be in eng_slo.json eventually. file has been taken from here: https://github.com/words/an-array-of-english-words
+## 📖 About
 
-you can make a stardict from this if you run file stardict_converter
+- The dictionary is based on the **English–German** dataset (as it seemed the largest available at the start).  
+  Source: [Dictionaries for the Onyx Boox e-reader](https://blog.jirivanek.eu/en/2023/11/24/dictionaries-for-the-onyx-boox-e-reader/)
 
+- Some phrases are still missing. You can find them in  
+  👉 [missing_phrases.json](missing_phrases.json)
 
------
+- `all_words.json` contains the **ideal full wordlist** (from [words/an-array-of-english-words](https://github.com/words/an-array-of-english-words)).  
+  One day, I will batch-translated them (depends on if I find it necessary).
 
-Angleško slovenski slovar v nastajanju.
+- To generate a **StarDict dictionary**, run:
+  ```bash
+  python stardict_converter.py
+
+🇸🇮 Angleško–slovenski slovar
+
+Ta projekt vsebuje angleško–slovenski slovar v formatih JSON in StarDict.
