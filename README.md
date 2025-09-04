@@ -13,7 +13,7 @@ This project provides an **English–Slovenian dictionary** in both **JSON** and
   👉 [missing_phrases.json](missing_phrases.json)
 
 - `all_words.json` contains the **ideal full wordlist** (from [words/an-array-of-english-words](https://github.com/words/an-array-of-english-words)).  
-  One day, I will batch-translated them (depends on if I find it necessary).
+  One day, I will batch-translate them (depends on if I find it necessary).
 
 - To generate a **StarDict dictionary**, run:
   ```bash
