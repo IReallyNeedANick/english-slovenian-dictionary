@@ -8,9 +8,8 @@ This project provides an **English–Slovenian dictionary** in both **JSON** and
 
 - The dictionary is based on the **English–German** dataset (as it seemed the largest available at the start).  
   Source: [Dictionaries for the Onyx Boox e-reader](https://blog.jirivanek.eu/en/2023/11/24/dictionaries-for-the-onyx-boox-e-reader/)
+- and also on wordnet words
 
-- Some phrases are still missing. You can find them in  
-  👉 [missing_phrases.json](missing_phrases.json)
 
 - `all_words.json` contains the **ideal full wordlist** (from [words/an-array-of-english-words](https://github.com/words/an-array-of-english-words)).  
   One day, I will batch-translate them (depends on if I find it necessary).
